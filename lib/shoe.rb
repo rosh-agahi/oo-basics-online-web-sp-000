@@ -7,4 +7,9 @@ class Shoe
     @brand = brand
   end
   
+  def cobble
+    puts "The show has been repaired."
+    @condition = "new"
+  end
+
 end
